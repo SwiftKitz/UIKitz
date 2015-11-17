@@ -47,7 +47,7 @@ let controller = ViewController.createFromStoryboard(storyboard)
 
 __Easily support custom views in your ViewController__
 
-```
+```swift
 class CustomView: UIView {}
 
 class ViewController: UIViewController {
