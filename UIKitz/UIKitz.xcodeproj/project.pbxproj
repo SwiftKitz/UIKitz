@@ -9,22 +9,19 @@
 /* Begin PBXBuildFile section */
 		8214D0A51BFAC64A00218943 /* UIKitz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214D09A1BFAC64A00218943 /* UIKitz.framework */; };
 		8214D0AA1BFAC64A00218943 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0A91BFAC64A00218943 /* NSObjectTests.swift */; };
-		8214D0B61BFAC77400218943 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject.swift */; };
-		8214D0B71BFAC77400218943 /* UIViewAutoresizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B41BFAC77400218943 /* UIViewAutoresizing.swift */; };
-		8214D0B81BFAC77400218943 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController.swift */; };
+		8214D0B61BFAC77400218943 /* NSObject+XIBs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject+XIBs.swift */; };
+		8214D0B81BFAC77400218943 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController+Storyboards.swift */; };
 		8214D0BB1BFAC89800218943 /* CustomViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0BA1BFAC89800218943 /* CustomViewProvider.swift */; };
 		8214D0C31BFAD00000218943 /* UIViewAutoresizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0C21BFAD00000218943 /* UIViewAutoresizingTests.swift */; };
 		8214D0C51BFAD07A00218943 /* UIViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0C41BFAD07A00218943 /* UIViewControllerTests.swift */; };
 		8214D0CB1BFAD26D00218943 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0C91BFAD16200218943 /* Common.swift */; };
 		8214D0CD1BFAD2D000218943 /* CustomViewProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0CC1BFAD2D000218943 /* CustomViewProviderTests.swift */; };
 		8214D0D01BFAD72800218943 /* CustomViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0BA1BFAC89800218943 /* CustomViewProvider.swift */; };
-		8214D0D11BFAD72800218943 /* UIViewAutoresizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B41BFAC77400218943 /* UIViewAutoresizing.swift */; };
-		8214D0D21BFAD72800218943 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject.swift */; };
-		8214D0D31BFAD72800218943 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController.swift */; };
+		8214D0D21BFAD72800218943 /* NSObject+XIBs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject+XIBs.swift */; };
+		8214D0D31BFAD72800218943 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController+Storyboards.swift */; };
 		8214D0DE1BFAD72D00218943 /* CustomViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0BA1BFAC89800218943 /* CustomViewProvider.swift */; };
-		8214D0DF1BFAD72D00218943 /* UIViewAutoresizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B41BFAC77400218943 /* UIViewAutoresizing.swift */; };
-		8214D0E01BFAD72D00218943 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject.swift */; };
-		8214D0E11BFAD72D00218943 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController.swift */; };
+		8214D0E01BFAD72D00218943 /* NSObject+XIBs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B31BFAC77400218943 /* NSObject+XIBs.swift */; };
+		8214D0E11BFAD72D00218943 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0B51BFAC77400218943 /* UIViewController+Storyboards.swift */; };
 		8214D0EE1BFAD79200218943 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0C91BFAD16200218943 /* Common.swift */; };
 		8214D0EF1BFAD79200218943 /* UIViewAutoresizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0C21BFAD00000218943 /* UIViewAutoresizingTests.swift */; };
 		8214D0F01BFAD79200218943 /* NSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D0A91BFAC64A00218943 /* NSObjectTests.swift */; };
@@ -35,6 +32,9 @@
 		8214D1021BFAD86500218943 /* CustomClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8214D1001BFAD86500218943 /* CustomClass.xib */; };
 		8214D1041BFAD87C00218943 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214D1031BFAD87C00218943 /* Test.storyboard */; };
 		8214D1061BFAD89F00218943 /* CustomClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8214D1051BFAD89F00218943 /* CustomClass.xib */; };
+		82C866961C12436000269CCB /* UIViewController+IBActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C866951C12436000269CCB /* UIViewController+IBActions.swift */; };
+		82C866971C12436000269CCB /* UIViewController+IBActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C866951C12436000269CCB /* UIViewController+IBActions.swift */; };
+		82C866981C12436000269CCB /* UIViewController+IBActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C866951C12436000269CCB /* UIViewController+IBActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +60,8 @@
 		8214D0A41BFAC64A00218943 /* UIKitzTests-ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKitzTests-ios.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8214D0A91BFAC64A00218943 /* NSObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectTests.swift; sourceTree = "<group>"; };
 		8214D0AB1BFAC64A00218943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8214D0B31BFAC77400218943 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
-		8214D0B41BFAC77400218943 /* UIViewAutoresizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutoresizing.swift; sourceTree = "<group>"; };
-		8214D0B51BFAC77400218943 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8214D0B31BFAC77400218943 /* NSObject+XIBs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+XIBs.swift"; sourceTree = "<group>"; };
+		8214D0B51BFAC77400218943 /* UIViewController+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboards.swift"; sourceTree = "<group>"; };
 		8214D0BA1BFAC89800218943 /* CustomViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewProvider.swift; sourceTree = "<group>"; };
 		8214D0C21BFAD00000218943 /* UIViewAutoresizingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutoresizingTests.swift; sourceTree = "<group>"; };
 		8214D0C41BFAD07A00218943 /* UIViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerTests.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		8214D1001BFAD86500218943 /* CustomClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomClass.xib; sourceTree = "<group>"; };
 		8214D1031BFAD87C00218943 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		8214D1051BFAD89F00218943 /* CustomClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomClass.xib; sourceTree = "<group>"; };
+		82C866951C12436000269CCB /* UIViewController+IBActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+IBActions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +165,9 @@
 		8214D0B21BFAC6D000218943 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8214D0B31BFAC77400218943 /* NSObject.swift */,
-				8214D0B41BFAC77400218943 /* UIViewAutoresizing.swift */,
-				8214D0B51BFAC77400218943 /* UIViewController.swift */,
+				8214D0B31BFAC77400218943 /* NSObject+XIBs.swift */,
+				8214D0B51BFAC77400218943 /* UIViewController+Storyboards.swift */,
+				82C866951C12436000269CCB /* UIViewController+IBActions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,9 +411,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D0BB1BFAC89800218943 /* CustomViewProvider.swift in Sources */,
-				8214D0B71BFAC77400218943 /* UIViewAutoresizing.swift in Sources */,
-				8214D0B61BFAC77400218943 /* NSObject.swift in Sources */,
-				8214D0B81BFAC77400218943 /* UIViewController.swift in Sources */,
+				8214D0B61BFAC77400218943 /* NSObject+XIBs.swift in Sources */,
+				82C866961C12436000269CCB /* UIViewController+IBActions.swift in Sources */,
+				8214D0B81BFAC77400218943 /* UIViewController+Storyboards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,9 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D0D01BFAD72800218943 /* CustomViewProvider.swift in Sources */,
-				8214D0D11BFAD72800218943 /* UIViewAutoresizing.swift in Sources */,
-				8214D0D21BFAD72800218943 /* NSObject.swift in Sources */,
-				8214D0D31BFAD72800218943 /* UIViewController.swift in Sources */,
+				8214D0D21BFAD72800218943 /* NSObject+XIBs.swift in Sources */,
+				82C866971C12436000269CCB /* UIViewController+IBActions.swift in Sources */,
+				8214D0D31BFAD72800218943 /* UIViewController+Storyboards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,9 +445,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D0DE1BFAD72D00218943 /* CustomViewProvider.swift in Sources */,
-				8214D0DF1BFAD72D00218943 /* UIViewAutoresizing.swift in Sources */,
-				8214D0E01BFAD72D00218943 /* NSObject.swift in Sources */,
-				8214D0E11BFAD72D00218943 /* UIViewController.swift in Sources */,
+				8214D0E01BFAD72D00218943 /* NSObject+XIBs.swift in Sources */,
+				82C866981C12436000269CCB /* UIViewController+IBActions.swift in Sources */,
+				8214D0E11BFAD72D00218943 /* UIViewController+Storyboards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,6 +1019,7 @@
 				8214D0AE1BFAC64A00218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8214D0AF1BFAC64B00218943 /* Build configuration list for PBXNativeTarget "UIKitzTests-ios" */ = {
 			isa = XCConfigurationList;
@@ -1027,6 +1028,7 @@
 				8214D0B11BFAC64B00218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8214D0D71BFAD72800218943 /* Build configuration list for PBXNativeTarget "UIKitz-watchos" */ = {
 			isa = XCConfigurationList;
