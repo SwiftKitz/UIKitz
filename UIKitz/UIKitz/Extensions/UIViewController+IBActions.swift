@@ -14,6 +14,6 @@ import UIKit
 public extension UIViewController {
     
     @IBAction public func popNavigationController() {
-        navigationController?.popViewControllerAnimated(true)
+        navigationController?.popViewController(animated: true)
     }
 }

@@ -11,4 +11,4 @@ import Foundation
 
 private class HelperClass: NSObject {}
 
-let TestBundle = NSBundle(forClass: HelperClass.self)
+let TestBundle = Bundle(for: HelperClass.self)

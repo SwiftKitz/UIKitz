@@ -14,18 +14,18 @@ import UIKit
 */
 public extension NSObject {
     
-    public static func nib(bundle bundle: NSBundle? = nil) -> UINib {
+    public static func nib(bundle: Bundle? = nil) -> UINib {
         return UINib(nibName: className, bundle: bundle)
     }
     
-    public static func nibObject(bundle bundle: NSBundle? = nil, owner: AnyObject? = nil) -> Self? {
+    public static func nibObject(bundle: Bundle? = nil, owner: AnyObject? = nil) -> Self? {
         return _createFromNib(self, bundle: bundle, owner: owner)
     }
     
-    private class func _createFromNib<T>(type: T.Type, bundle: NSBundle?, owner: AnyObject? = nil) -> T? {
+    private class func _createFromNib<T>(_ type: T.Type, bundle: Bundle?, owner: AnyObject? = nil) -> T? {
         
-        return nib(bundle: bundle).instantiateWithOwner(owner, options: nil)
-            .flatMap { $0 as? T }
+        return nib(bundle: bundle).instantiate(withOwner: owner, options: nil)
+            .compactMap { $0 as? T }
             .first
     }
 }
@@ -47,7 +47,7 @@ public extension NSObject {
         
         /* Swift split is INSANELY slow */
         let classString = NSStringFromClass(self) as NSString
-        let comps = classString.componentsSeparatedByString(".")
+        let comps = classString.components(separatedBy: ".")
         
         if let last = comps.last {
             return last

@@ -14,11 +14,11 @@ import UIKit
 */
 public extension UIViewController {
     
-    public class func createFromStoryboard(storyboard: UIStoryboard) -> Self? {
+    public class func createFromStoryboard(_ storyboard: UIStoryboard) -> Self? {
         return createFromStoryboard(self, storyboard: storyboard)
     }
     
-    private class func createFromStoryboard<T>(type: T.Type, storyboard: UIStoryboard) -> T? {
-        return storyboard.instantiateViewControllerWithIdentifier(className) as? T
+    private class func createFromStoryboard<T>(_ type: T.Type, storyboard: UIStoryboard) -> T? {
+        return storyboard.instantiateViewController(withIdentifier: className) as? T
     }
 }

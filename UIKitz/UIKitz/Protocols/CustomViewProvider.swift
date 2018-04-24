@@ -21,7 +21,7 @@ import UIKit
     This will give you access to the `customView` property.
 */
 public protocol CustomViewProvider {
-    typealias ViewType
+    associatedtype ViewType
 }
 
 public extension CustomViewProvider where Self: UIViewController, Self.ViewType: UIView {
